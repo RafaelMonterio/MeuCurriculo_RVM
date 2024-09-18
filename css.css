@@ -4,12 +4,48 @@
             color: white;
         }
         .navbar {
-            background-color: #af3301;
+            background-color: #af2401;
+        }
+        .logo{
+
+            height: auto;
+            padding: 10px;
+            width: 1%;
         }
         .navbar-nav .nav-link {
             color: white;
             font-weight: 500;
         }
+        .container-content {
+            max-width: 75%;
+            margin: 0 auto; /* Centralizar o conteúdo */
+            margin-bottom: 20px;
+        }
+        
+        /* Ajustando as legendas do carrossel com estilo Bootstrap */
+        .carousel-caption p {
+            color: #E0E0E0 !important; /* Texto claro para a legenda do carrossel */
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo levemente escuro */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        /* Ajustando o carrossel com bordas arredondadas e sombra */
+        .carousel-item {
+            border-radius: 15px; /* Cantos arredondados */
+            border: 1px solid #B0B0B0; /* Borda cinza clara */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra cinza clara */
+            margin-bottom: 20px;
+        }
+        
+        /* Se você deseja adicionar arredondamento e borda às imagens do carrossel também */
+        .carousel-item img {
+            border-radius: 15px; /* Cantos arredondados nas imagens */
+            border: 1px solid #B0B0B0; /* Borda cinza clara nas imagens */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra cinza clara nas imagens */
+        }
+        
         .main-content {
             background-image: url('img/pexels-pixabay-221011.jpg');
             background-size: cover;
@@ -29,7 +65,7 @@
             font-weight: 300;
         }
         .sidebar {
-            background-color: #af3301;
+            background-color: #af2401;
             padding : 50px ;
             text-align: center;
             position: absolute;
@@ -42,8 +78,7 @@
             border-radius: 50%;
             width: 150px;
             height: 150px;
-            object-fit:fill;
-            transform: scaleX(-1);
+
         }
         .sidebar h2 {
             font-size: 1.75rem;
@@ -65,11 +100,4 @@
             margin: 0 10px;
             font-size: 1.25rem;
         }
-        .sidebar .btn {
-            background-color: white;
-            color: #3b5998;
-            font-weight: 700;
-            border: none;
-            padding: 10px 20px;
-            margin-top: 20px;
-        }
+
